@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>O nama - FK Crvena zvezda</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">        
+  <a href="index.html" class="logo">
+    <img src="slike/logo.png" alt="FK Crvena zvezda logo">  
+  </a>
+
+  <button class="hamburger" onclick="promeniMeni()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav id="navMenu" class="nav-menu">
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="onama.html">O nama</a></li>
+      <li class="dropdown">
+        <a href="usluge.html" class="dropdown-toggle">Usluge</a>
+        <ul class="dropdown-menu">
+          <li><a href="usluge.html#dres">Dres</a></li>
+          <li><a href="usluge.html#karte">Karte</a></li>
+          <li><a href="usluge.html#clanarina">Članarina</a></li>
+        </ul>
+      </li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div id="themeToggle" class="theme-toggle" onclick="promeniTemu()">
+    <span id="themeIcon">🌙</span>
+  </div>
+</header>
+
+<section>
+
+  <h1>O klubu</h1>
+  <p>
+    FK Crvena zvezda je osnovana 1945. godine i jedan je od najtrofejnijih klubova u regionu.
+  </p>
+<br>
+  <h2>Stadion</h2>
+  <p>
+    Stadion Rajko Mitić je domaći teren kluba i poznat je po sjajnoj atmosferi.
+  </p>
+<br>
+
+  <h3>Video kluba</h3>
+
+<div class="video">
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube-nocookie.com/embed/ZMvtW9VP22k"
+title="FK Crvena zvezda video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
+
+</section>
+
+<footer>
+  <p>&copy; 2026 FK Crvena zvezda</p>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
